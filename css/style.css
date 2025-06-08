@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1c1f26;
+    color: #fff;
+}
+header {
+    background: #111;
+    padding: 10px 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #00d1b2;
+}
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: url('../images/mechanical_bg.jpg') no-repeat center center/cover;
+}
